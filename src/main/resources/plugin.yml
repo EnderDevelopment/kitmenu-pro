@@ -1,0 +1,13 @@
+name: KitMenu
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  kit:
+    description: Opens and manages kits.
+    usage: /kit [create|delete|layout save]
+    aliases: [kits]
+permissions:
+  kit.admin:
+    description: Allows creating and deleting kits.
+    default: op
